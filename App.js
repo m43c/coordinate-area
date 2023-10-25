@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Text, View, StyleSheet } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import * as Location from "expo-location";
+import Map from "./components/Map";
 
 export default function App() {
     const [errorMsg, setErrorMsg] = useState(null);
@@ -20,8 +21,8 @@ export default function App() {
 
     return (
         <View style={styles.container}>
-            {errorMsg ? <Text>{errorMsg}</Text> : <Text>Map</Text>}
-            <StatusBar style={"auto"} />
+            {errorMsg ? <Text>{errorMsg}</Text> : <Map />}
+            <StatusBar style="light" backgroundColor="#000" />
         </View>
     );
 }
