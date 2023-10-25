@@ -1,5 +1,6 @@
 import { StyleSheet } from "react-native";
-import MapView, { Marker } from "react-native-maps";
+import MapView from "react-native-maps";
+import Marker from "./CustomMarker";
 
 export default function Map() {
     const currentLocation = {
