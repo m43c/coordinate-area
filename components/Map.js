@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
+
 import { StyleSheet } from "react-native";
 import MapView from "react-native-maps";
-import Marker from "./CustomMarker";
+
 import * as turf from "@turf/turf";
+
+import Marker from "./CustomMarker";
 
 export default function Map() {
     const [currentLocation, setcurrentLocation] = useState({
@@ -96,6 +99,7 @@ export default function Map() {
                     handleMarkerDragEnd(e.nativeEvent.coordinate, setPoint1)
                 }
             />
+
             <Marker
                 coordinate={point2}
                 color="blue"
@@ -104,6 +108,7 @@ export default function Map() {
                     handleMarkerDragEnd(e.nativeEvent.coordinate, setPoint2)
                 }
             />
+
             <Marker
                 coordinate={point3}
                 color="blue"
@@ -112,6 +117,7 @@ export default function Map() {
                     handleMarkerDragEnd(e.nativeEvent.coordinate, setPoint3)
                 }
             />
+            
             <Marker
                 coordinate={point4}
                 color="blue"

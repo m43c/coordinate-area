@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
+
 import { StyleSheet, Text, View } from "react-native";
+
 import { StatusBar } from "expo-status-bar";
 import * as Location from "expo-location";
+
 import Map from "./components/Map";
 
 export default function App() {
