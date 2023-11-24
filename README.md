@@ -11,33 +11,38 @@ The objective of this project is to provide users with a tool that allows them t
 The project is developed using the following technologies and libraries:
 
 - **React Native:** The mobile app development framework that uses JavaScript and React to create native apps.
-
 - **Expo:** A set of tools and services for the development of mobile applications with React Native. Simplifies the development process and provides access to device capabilities such as location.
-
 - **react-native-maps:** A React Native library that allows you to integrate interactive maps into your application.
-
 - **expo-location:** An Expo library that provides access to device location, which is useful for setting bookmark locations and tracking current location.
-
 - **Turf:** A JavaScript library used to perform geospatial calculations, in this case, to calculate the area of a geographic polygon from the coordinates provided by the markers.
+
+
+## Screenshots
+![Screenshot](https://github.com/m43c/coordinate-area/blob/main/assets/screenshot/permissions.png?raw=true)
+![Screenshot](https://github.com/m43c/coordinate-area/blob/main/assets/screenshot/area-square.png?raw=true)
 
 ## Installation and Use
 
 Below are the steps to install and run the application:
 
 1. Clone the repository to your local machine:
+
     ```bash
       git clone https://github.com/m43c/coordinate-area.git
     ```
 
 2. Navigate to the project directory:
+
     ```bash
       cd coordinate-area
     ```
 3. Install dependencies
+
     ```bash
       npm install
     ```
 4. Start the application
+
     ```bash
       npx expo start
     ```
