@@ -18,8 +18,8 @@ The project is developed using the following technologies and libraries:
 
 
 ## Screenshots
-![Screenshot](https://github.com/m43c/coordinate-area/blob/main/assets/screenshot/permissions.png?raw=true)
-![Screenshot](https://github.com/m43c/coordinate-area/blob/main/assets/screenshot/area-square.png?raw=true)
+![Screenshot](https://github.com/m43c/coordinate-area/blob/main/assets/screenshots/permissions.png?raw=true)
+![Screenshot](https://github.com/m43c/coordinate-area/blob/main/assets/screenshots/area-square.png?raw=true)
 
 ## Installation and Use
 
