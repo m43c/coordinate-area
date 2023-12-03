@@ -1,4 +1,4 @@
-# Area Calculation Project with React Native
+# Area Calculation
 
 This project is a React Native application that allows you to calculate the area of a polygon made up of four geographic coordinates. Use modern technologies and libraries to create a mobile application that allows you to interact with the map and perform geographic area calculations.
 
